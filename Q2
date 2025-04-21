@@ -1,0 +1,52 @@
+Git Workflow Explanation:
+
+Git is a distributed version control system used to track changes in source code. Its workflow involves three main areas: the working directory, the staging area, and the repository.
+
+1. Working Directory
+This is where you actively edit and create files.
+
+Files in this area are your current project files.
+
+Any new, modified, or deleted files will show up as changes in the working directory.
+
+Example: You edit a file called main.py — this change is in the working directory.
+
+2. Staging Area (Index)
+The staging area is where you prepare changes before committing them.
+
+You add files to the staging area using git add.
+
+Only staged changes will be included in the next commit.
+
+Example: You run git add main.py — now the changes are staged and ready to be committed.
+
+3. Repository (Local Repository)
+This is the Git database where commits are stored.
+
+When you commit, Git takes a snapshot of the staged changes and saves it in the repository.
+
+You use git commit to move changes from the staging area to the repository.
+
+Example: You run git commit -m "Update main.py" — now the changes are saved in your local repo.
+
+Typical Git Workflow Steps:
+Edit Files in the working directory.
+
+Stage Changes using git add.
+
+Commit Changes to the repository using git commit.
+
+Visual Summary:
+scss
+Copy
+Edit
+Working Directory → (git add) → Staging Area → (git commit) → Repository
+This workflow gives you full control over what changes are included in each commit, helping keep your project history clean and organized.
+
+
+
+
+
+
+
+

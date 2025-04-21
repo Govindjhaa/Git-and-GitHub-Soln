@@ -1,0 +1,23 @@
+Version control is a system that records changes to files over time so that developers can track and manage different versions of code. It allows multiple people to work on the same project without overwriting each other's work.
+
+Importance in software development:
+
+Collaboration – Multiple developers can work on the same codebase at the same time.
+
+Tracking Changes – It keeps a history of who made changes, what was changed, and why.
+
+Error Recovery – Developers can revert to previous versions if something goes wrong.
+
+Branching and Merging – Teams can work on new features or bug fixes separately and then combine the changes.
+
+Efficient Workflow – Helps manage and organize code for different environments like development, testing, and production.
+
+In summary, version control is essential for team collaboration, code management, and ensuring a reliable and organized software development process.
+
+
+
+
+
+
+
+

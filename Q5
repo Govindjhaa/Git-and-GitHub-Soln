@@ -1,0 +1,78 @@
+1. Find a Project
+Use platforms like GitHub Explore or Good First Issue to find beginner-friendly projects.
+
+Look for repositories with clear documentation and open issues labeled like good first issue, help wanted, etc.
+
+2. Fork the Repository
+Go to the project’s GitHub page.
+
+Click the Fork button at the top-right to create a personal copy of the repository under your account.
+
+3. Clone the Forked Repository
+Open your terminal or Git Bash.
+
+Run:
+
+bash
+Copy
+Edit
+git clone https://github.com/your-username/repo-name.git
+This creates a local copy of your fork on your computer.
+
+4. Create a New Branch
+Navigate into the project folder:
+
+bash
+Copy
+Edit
+cd repo-name
+Create and switch to a new branch:
+
+bash
+Copy
+Edit
+git checkout -b feature-branch-name
+5. Make Your Changes
+Edit the code, fix bugs, or add new features using your favorite editor.
+
+Be sure to follow the project’s contribution guidelines (usually in CONTRIBUTING.md).
+
+6. Stage and Commit Your Changes
+Stage your changes:
+
+bash
+Copy
+Edit
+git add .
+Commit with a meaningful message:
+
+bash
+Copy
+Edit
+git commit -m "Add feature/fix bug: brief description"
+7. Push Changes to Your Fork
+Push the branch to your GitHub fork:
+
+bash
+Copy
+Edit
+git push origin feature-branch-name
+8. Open a Pull Request (PR)
+Go to your forked repo on GitHub.
+
+Click "Compare & pull request".
+
+Add a clear title and description of your changes.
+
+Submit the pull request to the original repository’s main or development branch.
+
+9. Collaborate and Respond to Feedback
+Project maintainers may review your code and request changes.
+
+Update your code and push again — your PR will be automatically updated.
+
+10. PR Gets Merged 🎉
+Once approved, the maintainer merges your PR.
+
+You’ve officially contributed to an open-source project!
+
